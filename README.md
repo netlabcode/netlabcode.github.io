@@ -1,92 +1,48 @@
-## The SERG website
+# [Hugo Research Group Theme](https://github.com/wowchemy/starter-hugo-research-group)
 
-The SERG web site is built with Jekyll and is running on GitHub pages.
+[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 
-### Organization
+The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
 
-The website is organized in six top level sections:
+️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
 
-* [People](people.md) SERG member profiles
-* [Publications](publications.md) Auto-generated publication list
-* [Research](research.md) Brief description and links to research lines; list
-of open projects.
-* [Teaching](teaching.md) Links to our courses
-* [MSc projects](msc-projects.md) Open research topics and previous master
-  theses.
-* [Vacancies](vacancies.md) Open vacancies
+[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
+[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
 
-### Adding material
+Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
 
-Material can be added by anyone in any section. We hereby provide some
-templates to make the look and feel more consistent.
+[Check out the latest demo](https://research-group.netlify.app/) of what you'll get in less than 60 seconds, or [view the showcase](https://hugoblox.com/creators/).
 
-#### Adding yourself to People
+The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
 
-To add yourself to the People page, copy and modify accordingly the following code snippet. We maintain alphabetic order on the surname.
+- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
+- 📚 [View the **documentation**](https://docs.hugoblox.com/)
+- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
+- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
+- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
+- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
+- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
+- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
 
-```html
-<div class="card d-block">
-    <!--
-      Use your GitHub profile picture to avoid duplication. If not available,
-      create a 200x200px picture under /img and link it here.
-    -->
-    <img class="card-img-top" src="https://avatars2.githubusercontent.com/u/220701?v=4" alt="Arie van Deursen">
-    <div class="card-body">
-      <div class="card-title">
-        <!-- Your name, with a link to your website, if exists -->
-        <a href="https://avandeursen.com" title="Arie's home page">Arie van Deursen</a>
-      </div>
-      <!-- Your research interests -->
-      <p class="card-text">Group Leader, Software Technology Department Head</p>
-    </div>
-    <!-- Links to other websites containing your content-->
-    <div class="card-footer bg-transparent border-success">
-      <a href="https://twitter.com/avandeursen" title="Twitter"><i class="fab fa-twitter"></i></a>
-      <a href="https://github.com/avandeursen" title="GitHub"><i class="fab fa-github"></i></a>
-      <a href="https://stackoverflow.com/users/165292/avandeursen" title="StackOverflow"><i class="fab fa-stack-overflow"></i></a>
-      <a href="https://nl.linkedin.com/in/avandeursen" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="https://scholar.google.nl/citations?user=jjCkWXgAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar-square"></i></a>
-      <a href="https://pure.tudelft.nl/portal/en/persons/a-van-deursen(949eb2cc-4db0-4f33-bd56-13425fa5c24a)/publications.html?pageSize=all&page=0" title="Publications"><i class="fas fa-edit"></i></a>
-    </div>
-  </div>
-```
+## We ask you, humbly, to support this open source movement
 
-#### Adding master thesis topics
+Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
 
-### Building locally
+We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
 
-There are two options to build the website locally:
+### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
 
-* Installing and running Jekyll
-* Running Jekyll from a Docker container
+## Demo credits
 
-#### Installing and running Jekyll
+Please replace the demo images with your own.
 
-Jekyll requires Ruby (>=2.3). If you have Ruby installed (most recent Linuxes
-and Macs do have a correct version of Ruby), you can use the following commands
-to build the web site:
-
-```shell
-# Install dependencies
-gem install bundler
-bundle install
-
-# Build the web site
-bundle exec jekyll build
-
-# Run jekyll as web server.
-# Automatically rebuilds after a file change
-bundle exec jekyll serve
-```
-
-#### Running with Docker
-
-You can use Docker to avoid installing Ruby and/or gems. More instructions
-[here](https://github.com/envygeeks/jekyll-docker/blob/master/README.md)
-
-```shell
-export JEKYLL_VERSION=3.8.4
-
-# Build the web site
-docker run --rm -p4000:4000 --volume="$PWD:/srv/jekyll" -it jekyll/builder:$JEKYLL_VERSION jekyll serve
-```
+- [Female scientist](https://unsplash.com/photos/uVnRa6mOLOM)
+- [2 Coders](https://unsplash.com/photos/kwzWjTnDPLk)
+- [Cafe](https://unsplash.com/photos/RnDGGnMEOao)
+- Blog posts
+  - https://unsplash.com/photos/AndE50aaHn4
+  - https://unsplash.com/photos/OYzbqk2y26c
+- Avatars
+  - https://unsplash.com/photos/5yENNRbbat4
+  - https://unsplash.com/photos/WNoLnJo7tS8
