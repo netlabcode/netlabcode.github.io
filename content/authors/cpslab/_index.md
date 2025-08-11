@@ -1,6 +1,6 @@
 ---
 # Display name shown on the author card
-title: "Cyber-Physical System Lab"
+title: "CPS Lab"
 
 # Optional: appears under the name
 role: "Research Lab"
