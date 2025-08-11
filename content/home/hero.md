@@ -17,11 +17,13 @@ position = "center"
 
 ### Research Topics
 
-**[Cyber Security](/cyber-security/).** >>>.
+**[Cyber Security](/cyber-security/)** >>>
 
-**[Cyber-Physical System](/cyber-physical-system/).** >>>.
+**[Cyber-Physical System](/cyber-physical-system/)** >>>
 
-**[Artificial Intelligence](/artificial-intelligence/).** >>>.
+**[Artificial Intelligence](/artificial-intelligence/)** >>>
+
+**[Miscellaneous](/miscellaneous/)** >>>
 
 ---
 
