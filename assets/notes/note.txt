@@ -29,3 +29,11 @@ Misc
 - Model Context Protocol
 https://github.com/modelcontextprotocol 
 
+- Sport Video
+
+NetBeat: Netwok Traffic Characterization
+
+Signature based solution and AI-based supervised classification for anomaly detection unable to deal with evolving cyber attack due to non deterministic characteristic.
+Therefore, this research aims to unveil anomaly detection method based on the network traffic characteristic.
+NetBeat inspired from a heart beat, where the objective aims to understand network pattern like a heartbeat in human body in the context of network communication.
+
