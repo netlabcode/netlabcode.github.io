@@ -28,7 +28,7 @@ position = "center"
 ---
 
 
-{{< figure src="/media/shield.png" caption="prototype" width="50%" >}}
+{{< figure src="/media/shield.png" caption=" " width="50%" >}}
 
 Sensing the world, learning from it, and never breaking stride.
 
