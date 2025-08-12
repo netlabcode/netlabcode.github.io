@@ -1,0 +1,31 @@
+
+
+Cyber Security
+
+- Federated Learning for Intrusion Detection System
+
+- Fake BTS countermeasures 
+
+- Network Traffic Characterization
+
+
+
+Cyber-Physical System
+
+- Spatio-Temporal Air Quality Prediction
+openaq.org , map.purpleair.com, 
+- Cyber-Physical Power System Digital Twin Model
+
+Artificial Intelligence
+- Illegal Logging Detection using Deepforest
+https://github.com/martibosch/deepforest-modal-app
+
+- explainable AI 
+
+- Detection AI generated contents
+
+Misc
+
+- Model Context Protocol
+https://github.com/modelcontextprotocol 
+
