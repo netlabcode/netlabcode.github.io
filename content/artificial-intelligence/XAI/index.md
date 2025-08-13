@@ -15,6 +15,8 @@ share: false
 links:
 - name: Reference 1
   url: "https://web.archive.org/web/20220905140300id_/https://dl.acm.org/doi/pdf/10.1145/3561048"
+- name: Reference 2
+  url: "https://arxiv.org/pdf/2412.00800"
 - name: Github Source 1
   url: "https://github.com/jacobgil/pytorch-grad-cam"
 - name: Github Source 2
@@ -29,5 +31,5 @@ featured: true
 
 The growing adoption of artificial intelligence in critical domains such as healthcare, finance, and cybersecurity demands models that are not only accurate but also transparent and trustworthy. This research aims to develop Explainable AI (XAI) methods that provide clear, interpretable insights into model decision-making without sacrificing performance. By combining model-agnostic explanation techniques with inherently interpretable architectures, the proposed approach seeks to enhance user trust, support regulatory compliance, and facilitate human–AI collaboration. The study will evaluate these methods across multiple application domains, assessing their effectiveness in improving transparency, detectability of bias, and actionable decision support.
 
-{{< figure src="shield.png" caption=" " >}}
+{{< figure src="shield.png" aption=" " width="25%" >}}
 

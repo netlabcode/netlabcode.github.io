@@ -17,6 +17,11 @@ links:
   url: "https://ieeexplore.ieee.org/abstract/document/10705117"
 - name: Reference 2
   url: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9780571"
+- name: Reference 3
+  url: "https://arxiv.org/abs/1407.7844"
+- name: Reference 4
+  url: "https://ieeexplore.ieee.org/document/8006282"
+
 
 
 # (Optional) show this item on section lists as “featured”
@@ -31,7 +36,7 @@ Intrusion Detection Systems (IDS) are essential for safeguarding networked envir
 
 The implementation of the proposed federated learning IDS will be evaluated in a controlled Mininet simulation environment. In this setup, network traffic data will be distributed across multiple virtual nodes to mimic real-world decentralized scenarios. Each node will locally train its deep learning model using its own subset of traffic data, ensuring that sensitive information remains within its origin. Model parameters will then be securely aggregated at a central server to produce a global detection model. This deployment approach enables systematic testing of detection performance, communication overhead, and scalability under varying network conditions, while maintaining strict data privacy and simulating realistic operational constraints.
 
+{{< figure src="FederatedLearning.png" caption="https://link.springer.com/article/10.1007/s11280-020-00780-4" width="100%" >}}
 
-
-{{< figure src="shield.png" caption=" " >}}
+{{< figure src="shield.png" caption=" " width="25%" >}}
 

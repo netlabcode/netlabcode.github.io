@@ -19,15 +19,22 @@ links:
   url: "https://github.com/pysport"
 - name: Github Source 2
   url: "https://github.com/UnravelSports/unravelsports/"
+- name: Github Source 3
+  url: "https://github.com/tryolabs/soccer-video-analytics"
+- name: Github Source 3
+  url: "https://github.com/tryolabs/norfair"
 
 
 # (Optional) show this item on section lists as “featured”
 featured: true
 ---
 
-### Explainable Artificial Intelligence (XAI)
+### Artificial Intelligence for Sport Application
 
 Advances in artificial intelligence present new opportunities for enhancing sports performance analysis, injury prevention, and strategic decision-making. This research proposes the development of an AI-powered sports analytics framework leveraging the PySport library for data acquisition, processing, and model integration. The system will apply machine learning techniques to extract actionable insights from player statistics, game events, and performance metrics. Predictive models will be designed for talent scouting, match outcome forecasting, and personalized training recommendations. By combining AI-driven analytics with the flexible data handling capabilities of PySport, the project aims to deliver a versatile and scalable solution that supports coaches, analysts, and athletes in data-informed decision-making.
 
-{{< figure src="shield.png" caption=" " >}}
+
+{{< youtube CWnlGBVaRpQ >}}
+
+{{< figure src="shield.png" aption=" " width="25%" >}}
 

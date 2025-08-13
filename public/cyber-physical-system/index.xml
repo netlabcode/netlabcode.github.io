@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber-Physical Systems | Cyber-Phsysical Intelligence</title><link>https://netlabcode.github.io/cyber-physical-system/</link><atom:link href="https://netlabcode.github.io/cyber-physical-system/index.xml" rel="self" type="application/rss+xml"/><description>Cyber-Physical Systems</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 11 Aug 2025 00:00:00 +0000</lastBuildDate><image><url>https://netlabcode.github.io/images/logo.svg</url><title>Cyber-Physical Systems</title><link>https://netlabcode.github.io/cyber-physical-system/</link></image><item><title>CPS Digital Twin</title><link>https://netlabcode.github.io/cyber-physical-system/cpsdigitaltwin/</link><pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate><guid>https://netlabcode.github.io/cyber-physical-system/cpsdigitaltwin/</guid><description>&lt;h3 id="modelling-cyber-physical-system-digital-twin">Modelling Cyber-Physical System Digital Twin&lt;/h3>
+&lt;p>Cyber-Physical Systems (CPS) require integrated modeling of both operational technology and physical infrastructure to enable accurate monitoring, analysis, and control. This research proposes the development of a CPS Digital Twin that combines network and power system simulation within a unified framework. Mininet will be employed to emulate the operational technology layer, capturing communication patterns, latency, and network topology effects. PandaPower will be used to simulate the electrical power system, enabling detailed modeling of grid components, load flows, and operational states. The cyber and physical domains will be interconnected through the OPC UA protocol, facilitating standardized, secure, and real-time data exchange between simulators. This digital twin framework will support the study of CPS resilience, performance optimization, and the impact of cyber events on physical operations, providing a valuable platform for testing, training, and research in secure, intelligent infrastructure systems.&lt;/p>
+&lt;figure >
+&lt;a data-fancybox="" href="https://netlabcode.github.io/cyber-physical-system/cpsdigitaltwin/CPSmodel_hufbd340955497e78b3ebd3b6171e9c080_333124_2000x2000_fit_lanczos_2.png" >
+&lt;img data-src="https://netlabcode.github.io/cyber-physical-system/cpsdigitaltwin/CPSmodel_hufbd340955497e78b3ebd3b6171e9c080_333124_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="573">
+&lt;/a>
+&lt;/figure>
+&lt;figure >
+&lt;a data-fancybox="" href="https://netlabcode.github.io/cyber-physical-system/cpsdigitaltwin/shield_hu419380dd6ff4e0658cd2536e184f1ca5_680159_2000x2000_fit_lanczos_2.png" >
+&lt;img data-src="https://netlabcode.github.io/cyber-physical-system/cpsdigitaltwin/shield_hu419380dd6ff4e0658cd2536e184f1ca5_680159_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="25%" height="980">
+&lt;/a>
+&lt;/figure></description></item><item><title>Spatio Temporal AQ</title><link>https://netlabcode.github.io/cyber-physical-system/spatiotemporalaq/</link><pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate><guid>https://netlabcode.github.io/cyber-physical-system/spatiotemporalaq/</guid><description>&lt;h3 id="spatio-temporal-air-quality-prediction-model">Spatio Temporal Air Quality Prediction Model&lt;/h3>
+&lt;p>Accurate forecasting of air quality is essential for mitigating public health risks and supporting environmental policy decisions. This research proposes the development of a spatio-temporal prediction model that integrates both spatial correlations among monitoring stations and temporal patterns in pollutant variations. By combining historical air quality measurements with meteorological, geographic, and emission source data, the model aims to capture complex dependencies across space and time. Advanced machine learning architectures, such as graph neural networks and recurrent models, will be explored to improve prediction accuracy and robustness. The expected outcome is a predictive framework capable of providing fine-grained, short- and medium-term air quality forecasts, enabling timely interventions and more effective urban air quality management.&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/9jVTdxDEFxs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;/div>
+&lt;figure id="figure-source-httpsoizomcomhow-can-air-quality-forecasting-help-reduce-pollution-exposure">
+&lt;a data-fancybox="" href="https://netlabcode.github.io/cyber-physical-system/spatiotemporalaq/oizom_hu35610471211d5d45183859f624536902_330976_2000x2000_fit_lanczos_2.png" data-caption="source: &amp;lt;a href=&amp;#34;https://oizom.com/how-can-air-quality-forecasting-help-reduce-pollution-exposure/&amp;#34;&amp;gt;https://oizom.com/how-can-air-quality-forecasting-help-reduce-pollution-exposure/&amp;lt;/a&amp;gt;">
+&lt;img data-src="https://netlabcode.github.io/cyber-physical-system/spatiotemporalaq/oizom_hu35610471211d5d45183859f624536902_330976_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="100%" height="497">
+&lt;/a>
+&lt;figcaption>
+source: &lt;a href="https://oizom.com/how-can-air-quality-forecasting-help-reduce-pollution-exposure/">https://oizom.com/how-can-air-quality-forecasting-help-reduce-pollution-exposure/&lt;/a>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure id="figure-">
+&lt;a data-fancybox="" href="https://netlabcode.github.io/cyber-physical-system/spatiotemporalaq/shield_hu419380dd6ff4e0658cd2536e184f1ca5_680159_2000x2000_fit_lanczos_2.png" data-caption="">
+&lt;img data-src="https://netlabcode.github.io/cyber-physical-system/spatiotemporalaq/shield_hu419380dd6ff4e0658cd2536e184f1ca5_680159_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="25%" height="980">
+&lt;/a>
+&lt;figcaption>
+&lt;/figcaption>
+&lt;/figure></description></item></channel></rss>

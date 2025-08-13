@@ -30,6 +30,7 @@ featured: true
 SMS-based One-Time Password (OTP) authentication remains one of the most widely used second-factor security methods due to its simplicity and accessibility. However, it is increasingly vulnerable to evolving attack vectors such as SIM swapping, SS7 protocol exploitation, SMS phishing, and man-in-the-middle interception. This research explores strategies to harden SMS OTP systems without sacrificing usability. Proposed measures include augmenting OTP delivery with cryptographic binding to session metadata, integrating device fingerprinting for contextual verification, and employing adaptive expiration policies based on risk assessment. By combining protocol-level defenses with intelligent anomaly detection, the study aims to significantly raise the difficulty of OTP compromise, thereby extending the viability of SMS-based authentication in modern threat environments.
 
 
+{{< figure src="smsOTP.png" caption="source: https://link.springer.com/article/10.1007/s11276-023-03455-w" width="75%" >}}
 
-{{< figure src="shield.png" caption=" " >}}
+{{< figure src="shield.png" caption=" " width="25%" >}}
 

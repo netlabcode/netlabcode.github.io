@@ -3,32 +3,38 @@
 title: "CPS Lab"
 
 # Optional: appears under the name
-role: "Research Lab"
+role: "Alfan Presekal"
 
 # Your org (shows as a link if url is set)
 organizations:
-- name: "Your Department, Your University"
-  url: "https://example.edu"
+- name: "Computer Engineering, Department Electrical Engineering Universitas Indonesia"
+
 
 # Contact email for the card
-email: "cpslab@example.edu"
+email: "presekal@ui.ac.id"
 
 # Short blurb
 bio: "We study real-time control, safety, and robustness in cyber-physical systems."
 
 # Social links shown as icons
 social:
-- icon: github
-  icon_pack: fab
-  link: "https://github.com/your-cps-lab"
 - icon: envelope
   icon_pack: fas
-  link: "mailto:cpslab@example.edu"
+  link: "mailto:presekal@ui.ac.id"
 - icon: globe
   icon_pack: fas
-  link: "https://example.edu/cpslab"
+  link: "https://a.presekal.com"
+- icon: linkedin           # LinkedIn (Font Awesome Brands)
+  icon_pack: fab
+  link: "https://www.linkedin.com/in/presekal"
+- icon: google-scholar     # Google Scholar (Academicons)
+  icon_pack: ai
+  link: "https://scholar.google.com/citations?user=rcqaVKMAAAAJ&hl=en"
+- icon: orcid              # ORCID (Academicons)
+  icon_pack: ai
+  link: "https://orcid.org/0000-0002-8323-2856"
 
 # (Optional) location, interests, etc.
 # interests: ["Robotics", "Embedded", "Safety"]
-# location: "City, Country"
+# location: "Depok, Indonesia"
 ---
