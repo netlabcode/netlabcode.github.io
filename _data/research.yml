@@ -1,0 +1,46 @@
+# Research areas — grouped by theme
+
+- icon: "🔐"
+  title: Cyber Security
+  slug: cyber-security
+  description: >
+    Research in intrusion detection, federated learning for IDS, SMS OTP hardening,
+    and network traffic characterization for adaptive anomaly detection.
+  projects:
+    - title: Federated Learning IDS
+      slug: federated-learning-ids
+      summary: Federated Deep Learning Application for Intrusion Detection System
+    - title: NetBeat
+      slug: netbeat
+      summary: Network Traffic Characterization for Adaptive Anomaly Detection
+    - title: SMS OTP Hardening
+      slug: sms-otp-hardening
+      summary: Strengthening the Security of One-Time Password Authentication
+
+- icon: "🧠"
+  title: Applied Artificial Intelligence
+  slug: artificial-intelligence
+  description: >
+    Machine learning and explainable AI applied to sports analytics, adversarial robustness,
+    and intelligent decision support in critical engineering domains.
+  projects:
+    - title: AI for Sport
+      slug: ai-for-sport
+      summary: Artificial Intelligence for Sport Performance Analysis
+    - title: Explainable AI (XAI)
+      slug: xai
+      summary: Transparent and trustworthy AI for critical applications
+
+- icon: "⚙️"
+  title: Cyber-Physical Systems
+  slug: cyber-physical-system
+  description: >
+    Digital twin modelling of CPS infrastructure, spatio-temporal air quality prediction,
+    and resilience testing using integrated network and power-system simulation.
+  projects:
+    - title: CPS Digital Twin
+      slug: cps-digital-twin
+      summary: Modelling Cyber-Physical System Digital Twin with Mininet and PandaPower
+    - title: Spatio-Temporal AQ
+      slug: spatio-temporal-aq
+      summary: Spatio-Temporal Air Quality Prediction Model

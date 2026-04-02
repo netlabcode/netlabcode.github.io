@@ -1,0 +1,18 @@
+<nav>
+  <div class="nav-inner">
+    <a href="{{ '/' | relative_url }}" class="logo">
+      <img src="{{ '/assets/img/shield.png' | relative_url }}" alt="CPI" class="logo-img">
+      <span class="logo-title">Cyber Physical Intelligence</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+      <li><a href="{{ '/research/cyber-security/' | relative_url }}"{% if page.url contains 'cyber-security' %} class="active"{% endif %}>Cyber Security</a></li>
+      <li><a href="{{ '/research/artificial-intelligence/' | relative_url }}"{% if page.url contains 'artificial-intelligence' %} class="active"{% endif %}>Applied AI</a></li>
+      <li><a href="{{ '/research/cyber-physical-system/' | relative_url }}"{% if page.url contains 'cyber-physical-system' %} class="active"{% endif %}>Cyber-Physical</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}"{% if page.url contains '/contact' %} class="active"{% endif %}>Contact</a></li>
+    </ul>
+  </div>
+</nav>

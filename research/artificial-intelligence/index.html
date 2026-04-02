@@ -1,0 +1,25 @@
+---
+layout: default
+title: Applied AI
+description: Machine learning and explainable AI for sports analytics, adversarial robustness, and intelligent decision support.
+---
+
+{% assign area = site.data.research | where: "slug", "artificial-intelligence" | first %}
+
+<section class="page-hero fade-up">
+  <div class="section-label"><a href="{{ '/research/' | relative_url }}" style="color:var(--accent); text-decoration:none;">← Research</a></div>
+  <h1 class="section-title">{{ area.icon }} {{ area.title }}</h1>
+  <p class="section-desc">{{ area.description }}</p>
+</section>
+
+<section class="page-content">
+  <div class="cards">
+    {% for project in area.projects %}
+    <a href="{{ '/research/artificial-intelligence/' | append: project.slug | append: '/' | relative_url }}" class="card fade-up" style="text-decoration:none; display:block;">
+      <h3 style="color:var(--text);">{{ project.title }}</h3>
+      <p>{{ project.summary }}</p>
+      <span class="card-link" style="margin-top:1rem;">Read More →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

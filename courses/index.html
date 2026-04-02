@@ -1,0 +1,25 @@
+---
+layout: default
+title: Courses
+description: Courses taught at Computer Engineering, Universitas Indonesia.
+---
+
+<section class="page-hero fade-up">
+  <div class="section-label">Teaching</div>
+  <h1 class="section-title">Courses</h1>
+  <p class="section-desc">Courses in digital systems, computer engineering, and cyber-physical systems at Universitas Indonesia.</p>
+</section>
+
+<section class="page-content">
+  <div class="course-list">
+    {% for course in site.data.courses %}
+    <div class="course-item fade-up">
+      <span class="course-code">{{ course.code }}</span>
+      <div class="course-info">
+        <h3>{{ course.title }}</h3>
+        <p>{{ course.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

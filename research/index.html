@@ -1,0 +1,29 @@
+---
+layout: default
+title: Research
+description: Research in cyber-physical systems, cybersecurity, and applied AI at NetLabCode.
+---
+
+<section class="page-hero fade-up">
+  <div class="section-label">Research</div>
+  <h1 class="section-title">Research Areas</h1>
+  <p class="section-desc">Sensing the world, learning from it, and never breaking stride — our work spans CPS resilience, intrusion detection, and intelligent data-driven systems.</p>
+</section>
+
+<section class="page-content">
+  <div class="cards">
+    {% for area in site.data.research %}
+    <a href="{{ '/research/' | append: area.slug | append: '/' | relative_url }}" class="card fade-up" style="text-decoration:none; display:block;">
+      <div class="card-icon" aria-hidden="true">{{ area.icon }}</div>
+      <h3 style="color:var(--text);">{{ area.title }}</h3>
+      <p>{{ area.description }}</p>
+      <div style="margin-top:1rem; display:flex; flex-direction:column; gap:0.4rem;">
+        {% for project in area.projects %}
+        <span style="font-size:0.8rem; color:var(--text-muted);">· {{ project.title }}</span>
+        {% endfor %}
+      </div>
+      <span class="card-link" style="margin-top:1.25rem;">Explore →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>

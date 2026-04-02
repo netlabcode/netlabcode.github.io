@@ -1,0 +1,25 @@
+# Courses taught at Computer Engineering, Universitas Indonesia
+
+- code: ENCE3xx
+  title: Digital System Design
+  description: Logic design, combinational and sequential circuits, FPGA-based implementation and verification.
+
+- code: CE Junior
+  title: Computer Engineering Junior Seminar
+  description: Introduction to research methods, technical writing, and key topics in computer engineering.
+
+- code: ENCE4xx
+  title: Asynchronous Circuit Design
+  description: Principles of delay-insensitive and asynchronous logic, Petri nets, and verification techniques.
+
+- code: ENCE3yy
+  title: Computer Design Lab
+  description: Microprocessor architecture, assembly programming, interfacing, and embedded system experiments.
+
+- code: ENCE5xx
+  title: Engineering Genetic Circuits
+  description: Synthetic biology principles applied to genetic circuit modeling and computational design tools.
+
+- code: ENCE6xx
+  title: Verification of Cyber-Physical Systems
+  description: Formal methods, model checking, and runtime verification for safety-critical CPS applications.

@@ -1,0 +1,43 @@
+title: Cyber Physical Intelligence
+description: Advancing resilient and intelligent cyber-physical systems through research in cybersecurity, AI, and operational technology.
+url: "https://netlabcode.github.io"
+baseurl: ""
+
+# Build
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+highlighter: rouge
+permalink: pretty
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - vendor/
+  - .bundle/
+  - serve.sh
+  - academic.Rproj
+  - cleanup_hugo_tagging.py
+  - publications.bib
+  - update_wowchemy.sh
+  - view.sh
+  - go.mod
+  - go.sum
+  - config/
+  - content/
+  - data/
+  - layouts/
+  - netlify.toml
+  - resources/
+  - scripts/
+  - _vendor/
+  - public/
+  - public.tar.gz
+
+# Plugins (GitHub Pages safe)
+plugins:
+  - jekyll-seo-tag

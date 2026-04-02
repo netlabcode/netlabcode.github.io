@@ -1,0 +1,25 @@
+---
+layout: default
+title: Cyber-Physical Systems
+description: Digital twin modelling, spatio-temporal forecasting, and resilience testing of cyber-physical infrastructure.
+---
+
+{% assign area = site.data.research | where: "slug", "cyber-physical-system" | first %}
+
+<section class="page-hero fade-up">
+  <div class="section-label"><a href="{{ '/research/' | relative_url }}" style="color:var(--accent); text-decoration:none;">← Research</a></div>
+  <h1 class="section-title">{{ area.icon }} {{ area.title }}</h1>
+  <p class="section-desc">{{ area.description }}</p>
+</section>
+
+<section class="page-content">
+  <div class="cards">
+    {% for project in area.projects %}
+    <a href="{{ '/research/cyber-physical-system/' | append: project.slug | append: '/' | relative_url }}" class="card fade-up" style="text-decoration:none; display:block;">
+      <h3 style="color:var(--text);">{{ project.title }}</h3>
+      <p>{{ project.summary }}</p>
+      <span class="card-link" style="margin-top:1rem;">Read More →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
