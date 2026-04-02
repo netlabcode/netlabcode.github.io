@@ -1,0 +1,39 @@
+
+
+Cyber Security
+
+- Federated Learning for Intrusion Detection System
+
+- Fake BTS countermeasures 
+
+- Network Traffic Characterization
+
+
+
+Cyber-Physical System
+
+- Spatio-Temporal Air Quality Prediction
+openaq.org , map.purpleair.com, 
+- Cyber-Physical Power System Digital Twin Model
+
+Artificial Intelligence
+- Illegal Logging Detection using Deepforest
+https://github.com/martibosch/deepforest-modal-app
+
+- explainable AI 
+
+- Detection AI generated contents
+
+Misc
+
+- Model Context Protocol
+https://github.com/modelcontextprotocol 
+
+- Sport Video
+
+NetBeat: Netwok Traffic Characterization
+
+Signature based solution and AI-based supervised classification for anomaly detection unable to deal with evolving cyber attack due to non deterministic characteristic.
+Therefore, this research aims to unveil anomaly detection method based on the network traffic characteristic.
+NetBeat inspired from a heart beat, where the objective aims to understand network pattern like a heartbeat in human body in the context of network communication.
+
